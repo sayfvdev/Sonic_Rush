@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('./bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.game {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    height: 200px;
+    overflow: hidden;
+    background: linear-gradient(to right,
+            rgb(0 0 0 / 0.5),
+            rgb(0 0 0 / 0.5)), 100%/cover no-repeat;
+}
+
+.dino {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    background-image: url('./sonik.png');
+    background-size: cover;
+}
+
+.cactus {
+    position: absolute;
+    bottom: 0;
+    width: 90px;
+    height: 50px;
+    background: url('./vrag.png');
+    right: -30px;
+    background-size: cover;
+}
+
+#jump {
+    background: rgb(255, 251, 44);
+    border: 5px solid blue;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 25px;
+}
